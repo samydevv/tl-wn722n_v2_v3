@@ -16,9 +16,17 @@ sudo apt-get install linux-headers-amd64
 
 sudo apt-get install bc -y
 
+sudo apt update -y   
+
+sudo apt upgrade -y   
+
 echo "installing dkms.."
 
 sudo apt-get install dkms
+
+echo "installing the required dependences"
+
+sudo apt-get install libwacom-common
 
 git clone https://github.com/aircrack-ng/rtl8188eus
 
